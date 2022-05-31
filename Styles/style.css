@@ -11,6 +11,30 @@ body{
     height: 100vh;
     background-color: #c7cdd3;
 }
+#window{
+    display: grid;
+    grid-template: 1fr /1fr 1fr 1fr;
+    margin: 0 10px 0 10px;
+}
+#time{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#move{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#moviment{
+    margin-bottom: 30px;
+}
 .card{
     position: relative;
     width: 150px;
@@ -46,7 +70,7 @@ body{
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.9);
+    background-color: rgba(0,0,0,0.75);
     color: white;
     font-size: 50px;
     display: none;
@@ -67,4 +91,5 @@ body{
     display: grid;
     grid-template: 1fr 1fr 1fr 1fr 1fr/ 1fr 1fr 1fr 1fr;
     gap: 20px;
+    margin: 0 10px 0 10px;
 }

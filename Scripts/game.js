@@ -4,7 +4,7 @@ let game = {
   secondCard: null,
 
   setCard: function (id) {
-    let card = this.cards.filter(card => card.id === id)[0];
+    let card = this.cards.filter((card) => card.id === id)[0];
     if (card.flipped || this.lockMode) {
       return false;
     }
@@ -40,7 +40,7 @@ let game = {
   },
 
   checkGameOver() {
-    return this.cards.filter(card => !card.flipped).length == 0;
+    return this.cards.filter((card) => !card.flipped).length == 0;
   },
 
   techs: [
@@ -59,10 +59,10 @@ let game = {
 
   createCardsFromTechs: function () {
     this.cards = [];
-    this.techs.forEach(tech => {
+    this.techs.forEach((tech) => {
       this.cards.push(this.createPairFromTechs(tech));
     });
-    this.cards = this.cards.flatMap(pair => pair);
+    this.cards = this.cards.flatMap((pair) => pair);
     this.shuffleCards();
     return this.cards;
   },
