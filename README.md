@@ -1,8 +1,10 @@
 > # Jogo da memória utilizando React
 >
-> > ## Live Server: https://stalwart-alfajores-03c9ce.netlify.app/
-> >
-> > ## Download Jogo da memória: git clone https://github.com/Luis-Felipe-Gongora-Garcia/Jogo-da-Mem-ria
+> > Live Server: https://stalwart-alfajores-03c9ce.netlify.app/
+>
+> > Download Jogo da memória utilizando o git:
+>
+> > ### git clone https://github.com/Luis-Felipe-Gongora-Garcia/Jogo-da-Mem-ria
 
 ---
 
