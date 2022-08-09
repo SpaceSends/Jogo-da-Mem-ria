@@ -4,7 +4,7 @@
 >
 > > Download Jogo da memória utilizando o git:
 >
-> > ### git clone https://github.com/Luis-Felipe-Gongora-Garcia/Jogo-da-Mem-ria
+> > ### `git clone https://github.com/Luis-Felipe-Gongora-Garcia/Jogo-da-Mem-ria`
 
 ---
 
