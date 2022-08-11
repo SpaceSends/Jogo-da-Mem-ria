@@ -5,7 +5,7 @@
 > > Download Jogo da memória utilizando o git:
 > > ### `git clone https://github.com/Luis-Felipe-Gongora-Garcia/Jogo-da-Mem-ria`
 > >
-> > ## Como Funciona o jogo da memória
+> > ## Como Funciona o jogo da memória:
 > > Ao iniciar o [Live Server](https://stalwart-alfajores-03c9ce.netlify.app/), notará diversos blocos azuis com "</>" dentro de cada uma, essa são as peças do jogo da memória, ao clicar em alguma revelara a imagem que esta por trás da peça, e ao clicar em outra peça realizará a mesma coisa, o sistema vai checar se as duas imagens são idênticas, e caso seja, elas ficarão viradas, caso nao seja elas voltaram para parte da frente "(</>)".
 
 ---
